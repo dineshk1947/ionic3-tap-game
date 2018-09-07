@@ -1,0 +1,4 @@
+#Fri Sep 07 12:14:27 IST 2018
+base.0=/home/dineshkumar/dinesh/ionic_practice/tap-to-win-remake/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/home/dineshkumar/dinesh/ionic_practice/tap-to-win-remake/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

@@ -1,0 +1,56 @@
+page-home {
+    .bar-button-menutoggle-ios ion-icon{
+        font-size: 3.8rem;
+    }
+    .store-img{
+        width: 35px;
+    }
+    .toolbar-title{
+        font-size: 31px;
+        text-transform: uppercase;
+    }
+    .trophy{
+        font-size: 26px !important;
+        margin-right: 10px !important;
+    }
+    .currency-bar{
+        background-color: map-get($colors,black);
+        color: white;
+        .red-border{
+            border-top: 1px solid #f04d56;
+            border-bottom: 1px solid #f04d56;
+            position: relative;
+        }
+        .blue-border{
+            border-top: 1px solid #3597fd;
+            border-bottom: 1px solid #3597fd;
+            position: relative;
+            &::before{
+                    position: absolute;
+                    content: "";
+                    width: 3px;
+                    height: calc(100% + 2px);
+                    background: #000;
+                    left: 0;
+                    top: -1px;
+                    z-index: 9;
+            }
+            &::after{
+                position: absolute;
+                content: "";
+                width: 3px;
+                height: calc(100% + 2px);
+                background: #000;
+                right: 0;
+                top: -1px;
+                z-index: 9;
+            }
+            
+        }
+        .yellow-border{
+            border-top: 1px solid #f2cb22;
+            border-bottom: 1px solid #f2cb22;
+        }
+    }
+
+}

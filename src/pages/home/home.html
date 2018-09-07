@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<ion-header>
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Home</ion-title>
+      <ion-title text-center>
+          <ion-icon name="trophy" class="trophy"></ion-icon>Contest
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="openModal()">
+              <img src="assets/imgs/Store.png" class="store-img" />
+            </button>
+          </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid class="currency-bar">
+    <ion-row>
+        <ion-col class="red-border" col-4 text-center>
+            <ion-icon  class="custom-redradio  radio-btn"></ion-icon>
+            <span>24</span>
+        </ion-col>
+        <ion-col class="blue-border" col-4 text-center>
+            <ion-icon  class="custom-blueradio radio-btn"></ion-icon>
+            <span>7</span>
+        </ion-col>
+        <ion-col class="yellow-border" col-4 text-center>
+          <ion-icon  class="custom-yellow radio-btn"></ion-icon>
+          <span>34</span>
+        </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
